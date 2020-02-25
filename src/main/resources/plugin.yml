@@ -1,0 +1,20 @@
+name: MinoHome
+main: com.minojin.homes.MinoHome
+version: 1.0
+api-version:
+description: Set homes to easily teleport.
+load: POSTWORLD
+author: Minojin
+commands:
+  sethome:
+    description: Set your home
+    usage: "Usage: /<command> {name}"
+  delhome:
+    description: Delete your home
+    usage: "Usage: /<command> {name}"
+  home:
+    description: Teleport to your home
+    usage: "Usage: /<command> {name}"
+  homes:
+    description: List your homes
+    usage: "Usage: /<command>"
